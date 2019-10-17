@@ -118,8 +118,8 @@ button.navbar-toggler.collapsed {
   .wrap-cont {
     width: 100% !important;
   }
-  .img-const {
-    width: 100%;
+  .img-const,.img-const1 {
+    width: 100% !important;
   }
   .txt-center {
     text-align: center;
@@ -157,7 +157,7 @@ button.navbar-toggler.collapsed {
   position: relative;
   left: 30%;
 }
-.img-const {
+.img-const,.img-const1 {
   width: 84%;
   height: 260px;
 }
@@ -197,7 +197,8 @@ button.navbar-toggler.collapsed {
   z-index: 999999;
 }
 .divider-ico {
-  width: 22%;
+  width: 9%;
+  margin-left: 38px;
   height: auto;
 }
 .size-t5 {
@@ -210,11 +211,11 @@ button.navbar-toggler.collapsed {
 }
 
 .service-item-container {
-  width: 80%;
+  width: 75%;
   float: left;
 }
 .ico-container {
-  width: 20%;
+  width: 25%;
   float: left;
 }
 .service-ico {
