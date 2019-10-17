@@ -5,11 +5,15 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.wrapper {
+  width: 100%;
+}
 html {
   font-size: 17px;
 }
-
+button:focus {
+  outline-style: none;
+}
 body {
   overflow-x: hidden;
   letter-spacing: 0.5px;
@@ -17,7 +21,8 @@ body {
 }
 
 .container-wrap {
-  width: 1140px;
+  width: 80%;
+  margin: 0 auto !important;
 }
 p {
   margin: 0 !important;
@@ -28,7 +33,7 @@ header {
   font-size: 11px;
 }
 .navbar {
-  border-bottom: 1px solid #575757;
+  border-bottom: 0.01em solid #858585;
 }
 
 .nav-link:hover {
@@ -36,7 +41,11 @@ header {
 }
 
 /*Carousal*/
-
+.number-txt {
+  position: relative;
+  top: -9px;
+  right: 5px;
+}
 .carousel-item {
   height: 100vh !important;
 }
@@ -48,35 +57,35 @@ header {
   top: 32% !important;
 }
 
-.t1 {
+.size-t1 {
   font-size: 250%;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-  width: 12px !important;
+  width: 9px !important;
   height: 15px !important;
 }
-.t4 {
+
+.size-t4 {
   font-size: 75%;
 }
 
 .learn-more {
-  font-size: 63%;
-  padding: 10px;
+  font-size: 50%;
+  padding: 8px;
   font-weight: 600;
   margin-top: 22px;
   background: #ff2d2d;
   color: #ffff;
   border: 2px solid #ff2d2d;
-  width: 117px;
+  width: 100px;
   border-radius: 20px;
   text-transform: uppercase;
 }
-.learn-more:hover {
-  background: transparent;
-}
+
 .bg-nav {
   background: #4d4d4d !important;
 }
@@ -96,5 +105,120 @@ button.navbar-toggler.collapsed {
 }
 .nav-link {
   color: #ffffff !important;
+  text-transform: uppercase;
+  font-size: 8px;
+  font-weight: 700;
 }
 /*Carousal Section */
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px !important;
+  }
+  .wrap-cont {
+    width: 100% !important;
+  }
+  .img-const {
+    width: 100%;
+  }
+  .txt-center {
+    text-align: center;
+  }
+  .service-item-container,
+  .ico-container {
+    width: 100% !important;
+  }
+  .service-ico {
+    width: 18% !important;
+    height: auto !important;
+  }
+}
+.carousel-indicators li {
+  width: 6px !important;
+  height: 6px !important;
+  border-radius: 100%;
+}
+.size-t3 {
+  font-size: 120%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.color-r1 {
+  color: #ff2d2d;
+}
+.row div {
+  margin-top: 5px;
+}
+.carousel-control-prev-icon {
+  position: relative;
+  right: 35%;
+}
+.carousel-control-next-icon {
+  position: relative;
+  left: 30%;
+}
+.img-const {
+  width: 84%;
+  height: 260px;
+}
+
+.wrap-cont {
+  width: 74%;
+  margin: 0 auto !important;
+}
+.changebg {
+  background-color: #4d4d4d;
+  transition: background-color 1000ms;
+}
+.img-const:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+.img-container,
+.service-container {
+  position: relative;
+}
+.img-ico {
+  position: absolute;
+  z-index: 99999;
+  color: #ffff;
+  top: 50%;
+  left: 50%;
+  font-size: 7px;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.img-container:hover img {
+  opacity: 0.8;
+  cursor: pointer;
+}
+.img-container:hover i {
+  display: block;
+  z-index: 999999;
+}
+.divider-ico {
+  width: 22%;
+  height: auto;
+}
+.size-t5 {
+  font-size: 15px;
+  font-weight: 600;
+}
+.size-t5:hover {
+  color: #ff2d2d;
+  cursor: pointer;
+}
+
+.service-item-container {
+  width: 80%;
+  float: left;
+}
+.ico-container {
+  width: 20%;
+  float: left;
+}
+.service-ico {
+  width: 100%;
+  padding-right: 8px;
+  height: 60px;
+}
