@@ -368,6 +368,17 @@ span.size-t4.f1-text.text-light {
   /* visibility: hidden; */
   display: none;
 }
+input {
+  outline: 0;
+}
+
+button {
+  outline: 0;
+}
+button:focus {
+  outline: none;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px !important;
@@ -391,7 +402,7 @@ span.size-t4.f1-text.text-light {
     height: auto;
   }
   .img-4 {
-    height: 340px;
+    height: 390px;
   }
   .divider-ico {
     width: 17%;
