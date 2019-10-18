@@ -19,7 +19,9 @@ body {
   letter-spacing: 0.5px;
   font-weight: 100;
 }
-
+.bg-danger {
+  background: #ff0000 !important;
+}
 .container-wrap {
   width: 80%;
   margin: 0 auto !important;
@@ -70,7 +72,7 @@ header {
 }
 
 .size-t4 {
-  font-size: 75%;
+  font-size: 70%;
 }
 
 .learn-more {
@@ -118,7 +120,8 @@ button.navbar-toggler.collapsed {
   .wrap-cont {
     width: 100% !important;
   }
-  .img-const,.img-const1 {
+  .img-const,
+  .img-const1 {
     width: 100% !important;
   }
   .txt-center {
@@ -131,6 +134,9 @@ button.navbar-toggler.collapsed {
   .service-ico {
     width: 18% !important;
     height: auto !important;
+  }
+  .img-4 {
+    height: 340px !important;
   }
 }
 .carousel-indicators li {
@@ -157,7 +163,8 @@ button.navbar-toggler.collapsed {
   position: relative;
   left: 30%;
 }
-.img-const,.img-const1 {
+.img-const,
+.img-const1 {
   width: 84%;
   height: 260px;
 }
@@ -222,4 +229,90 @@ button.navbar-toggler.collapsed {
   width: 100%;
   padding-right: 8px;
   height: 60px;
+}
+.progress {
+  height: 7px !important;
+}
+.progress-bar {
+  margin: 0px !important;
+}
+.progress-wrap {
+  text-align: right;
+}
+.fl-left {
+  float: left;
+}
+.progress-text {
+  font-size: 70%;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.size-t6 {
+  font-size: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.set-bg {
+  background: linear-gradient(rgb(255, 0, 0), rgba(238, 33, 33, 0.82)),
+    url(../images/bg6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.set-padding {
+  padding: 88px 0;
+}
+.quote-icon {
+  font-size: 9px;
+  position: relative;
+  top: -10px;
+  margin: 5px;
+}
+.img-4 {
+  width: 100%;
+  height: 320px;
+}
+.pos-rel {
+  position: relative;
+}
+.text-wrap {
+  position: absolute;
+  top: 78%;
+  z-index: 9999;
+  left: 43px;
+  text-align: left;
+  display: grid;
+  visibility: hidden;
+}
+.size-t41 {
+  font-size: 83%;
+  font-weight: 700;
+}
+.pos-rel:hover .text-wrap {
+  visibility: visible;
+}
+.pos-rel:hover img {
+  cursor: pointer;
+  -webkit-filter: brightness(70%);
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.pos-rel {
+  background: rgba(0, 0, 0, 0.5);
+}
+.f1 {
+  top: 35%;
+  left: 141px;
+}
+.f1-text {
+  background: black;
+  padding: 2px;
+}
+span.size-t4.f1-text.text-light {
+  width: 104px;
 }
