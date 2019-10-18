@@ -113,32 +113,6 @@ button.navbar-toggler.collapsed {
 }
 /*Carousal Section */
 
-@media only screen and (max-width: 768px) {
-  body {
-    font-size: 14px !important;
-  }
-  .wrap-cont {
-    width: 100% !important;
-  }
-  .img-const,
-  .img-const1 {
-    width: 100% !important;
-  }
-  .txt-center {
-    text-align: center;
-  }
-  .service-item-container,
-  .ico-container {
-    width: 100% !important;
-  }
-  .service-ico {
-    width: 18% !important;
-    height: auto !important;
-  }
-  .img-4 {
-    height: 340px !important;
-  }
-}
 .carousel-indicators li {
   width: 6px !important;
   height: 6px !important;
@@ -204,8 +178,8 @@ button.navbar-toggler.collapsed {
   z-index: 999999;
 }
 .divider-ico {
-  width: 9%;
-  margin-left: 38px;
+  width: 5%;
+  margin-left: 24px;
   height: auto;
 }
 .size-t5 {
@@ -318,11 +292,99 @@ span.size-t4.f1-text.text-light {
 }
 .contact {
   font-size: 10px;
-  padding: 7px;
+  padding: 9px;
   background: #fff;
-  border: 1px solid #fff;
+  border: 1px solid #f31d04;
   border-radius: 17px;
-  width: 90px;
+  width: 100px;
   color: #f31d04;
   font-weight: 600;
+}
+.category-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+.category-container div {
+  font-weight: 600;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.monthly {
+  padding: 8px;
+  background: #f31d04;
+  color: #ffff;
+  font-weight: 700;
+  border: 1px solid red;
+  width: 75px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+}
+
+.yearly {
+  padding: 8px;
+  background: #fff;
+  color: #f31d04;
+  font-weight: 700;
+  border: 1px solid red;
+  width: 75px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  margin-left: -6px;
+}
+
+.size-t7 {
+  font-size: 24px;
+  font-weight: 900;
+}
+.contact.font-small {
+  width: 120px;
+}
+.plan-progress {
+  margin: 0px !important;
+  height: 3px !important;
+}
+
+.bookmark-icon {
+  position: relative;
+  left: 46%;
+  top: -29px;
+  font-size: 41px;
+}
+.plan-cat-wrap {
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 43px;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    font-size: 14px !important;
+  }
+  .wrap-cont {
+    width: 100%;
+  }
+  .img-const,
+  .img-const1 {
+    width: 100% !important;
+  }
+  .txt-center {
+    text-align: center;
+  }
+  .service-item-container,
+  .ico-container {
+    width: 100%;
+  }
+  .service-ico {
+    width: 18%;
+    height: auto;
+  }
+  .img-4 {
+    height: 340px;
+  }
+  .divider-ico {
+    width: 17%;
+  }
 }
