@@ -248,7 +248,7 @@ button.navbar-toggler.collapsed {
   text-transform: uppercase;
 }
 .size-t6 {
-  font-size: 100%;
+  font-size: 90%;
   font-weight: 700;
   text-transform: uppercase;
   padding-bottom: 10px;
@@ -280,7 +280,7 @@ button.navbar-toggler.collapsed {
 .text-wrap {
   position: absolute;
   top: 78%;
-  z-index: 9999;
+  z-index: 99;
   left: 43px;
   text-align: left;
   display: grid;
@@ -315,4 +315,14 @@ button.navbar-toggler.collapsed {
 }
 span.size-t4.f1-text.text-light {
   width: 104px;
+}
+.contact {
+  font-size: 10px;
+  padding: 7px;
+  background: #fff;
+  border: 1px solid #fff;
+  border-radius: 17px;
+  width: 90px;
+  color: #f31d04;
+  font-weight: 600;
 }

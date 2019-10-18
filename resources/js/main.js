@@ -1,5 +1,5 @@
 $(function () {
-
+  AOS.init();
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
 
