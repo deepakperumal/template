@@ -358,7 +358,16 @@ span.size-t4.f1-text.text-light {
   padding-top: 20px;
   padding-left: 43px;
 }
-
+.img-ico1 {
+  position: absolute;
+  z-index: 9999;
+  top: 30%;
+  font-size: 9px;
+  left: 43%;
+  color: #ffff;
+  /* visibility: hidden; */
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px !important;
