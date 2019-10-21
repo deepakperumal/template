@@ -16,6 +16,9 @@ html {
 button:focus {
   outline-style: none !important;
 }
+textarea:focus {
+  outline-style: none !important;
+}
 body {
   font-family: 'Roboto', sans-serif !important;
   overflow-x: hidden;
@@ -450,17 +453,50 @@ button:focus {
   font-size: 12px;
   padding: 11px;
   border: none;
-  background: #eeeeee;
+  background: none;
 }
 
+.contact-inp:hover {
+  cursor: pointer;
+  background: #e8d5d159;
+}
+.contact-textarea:hover {
+  cursor: pointer;
+  background: #e8d5d159;
+}
 .contact-textarea {
   font-size: 12px;
   padding-top: 9px;
   height: 235px;
+  resize: none;
   border: none;
-  background: #eeeeee;
-  width: 81%;
+  background: none;
+  width: 95%;
   padding-left: 17px;
+}
+.map-img {
+  width: 100%;
+  height: auto;
+}
+footer {
+  background: black;
+}
+.subscribe-inp {
+  padding: 11px;
+  border: none;
+  width: 60%;
+}
+.subscribe {
+  padding: 11px;
+  color: #ffff;
+  background: #f31d04;
+  border-top-right-radius: 13px;
+  border: none;
+  border-bottom-right-radius: 13px;
+  width: 138px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 @media only screen and (max-width: 768px) {
   body {

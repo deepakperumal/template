@@ -1,863 +1,751 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <title>Project</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-    <script src="external/js/jquery.min.js"></script>
 
-    <link rel="stylesheet" href="resources/css/style.css" />
-    <link rel="stylesheet" href="external/css/bootstrap.min.css" />
-    <script src="external/js/bootstrap.min.js"></script>
-    <script src="external/js/popper.min.js"></script>
-    <script src="resources/js/main.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  </head>
-  <body>
+<head>
+  <title>Project</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  <script src="external/js/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="resources/css/style.css" />
+  <link rel="stylesheet" href="external/css/bootstrap.min.css" />
+  <script src="external/js/bootstrap.min.js"></script>
+  <script src="external/js/popper.min.js"></script>
+  <script src="resources/js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body>
     <div class="wrapper">
-      <header>
-        <nav
-          class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top"
-          id="nav"
-        >
-          <a class="navbar-brand" href="#">Kyata</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarColor01"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Team</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Testimonials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing Table</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
-              </li>
-              <li class="nav-item ">
-                <a class="nav-link" href="#"
-                  ><i class="fa fa-shopping-cart"></i
-                  ><span class="number-txt">3</span></a
-                >
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </header>
-      <section class="carousal block">
-        <div
-          id="demo"
-          class="carousel slide"
-          data-ride="carousel"
-          data-interval="111000"
-        >
-          <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
-          </ul>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img
-                src="resources/images/image.jpg"
-                alt="Los Angeles"
-                class="carousal-img"
-              />
-              <div class="carousel-caption">
-                <p class="size-t1">Grow Your</p>
-                <p class="size-t1 fl-t">Digital Business</p>
-                <p class="size-t4">
-                  We make outstanding passion,knowledge and soul
-                </p>
-                <button class="learn-more">Learn More</button>
+        <header>
+           <nav class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top" id="nav">
+              <a class="navbar-brand" href="#">Kyata</a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+                 aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarColor01">
+                 <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Team</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Testimonials</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Pricing Table</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                       <a class="nav-link" href="#"><i class="fa fa-search"></i></a>
+                    </li>
+                    <li class="nav-item ">
+                       <a class="nav-link" href="#"><i class="fa fa-shopping-cart"></i><span class="number-txt">3</span></a>
+                    </li>
+                 </ul>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="resources/images/bg2.jpg"
-                alt="Chicago"
-                class="carousal-img"
-              />
-              <div class="carousel-caption">
-                <p class="size-t1">Grow Your</p>
-                <p class="size-t1 fl-t">Digital Business</p>
-                <p class="size-t4">
-                  We make outstanding passion,knowledge and soul
-                </p>
-                <button class="learn-more">Learn More</button>
+           </nav>
+        </header>
+        <section class="carousal block">
+           <div id="demo" class="carousel slide" data-ride="carousel" data-interval="111000">
+              <ul class="carousel-indicators">
+                 <li data-target="#demo" data-slide-to="0" class="active"></li>
+                 <li data-target="#demo" data-slide-to="1"></li>
+                 <li data-target="#demo" data-slide-to="2"></li>
+              </ul>
+              <div class="carousel-inner">
+                 <div class="carousel-item active">
+                    <img src="resources/images/image.jpg" alt="Los Angeles" class="carousal-img" />
+                    <div class="carousel-caption">
+                       <p class="size-t1">Grow Your</p>
+                       <p class="size-t1 fl-t">Digital Business</p>
+                       <p class="size-t4">
+                          We make outstanding passion,knowledge and soul
+                       </p>
+                       <button class="learn-more">Learn More</button>
+                    </div>
+                 </div>
+                 <div class="carousel-item">
+                    <img src="resources/images/bg2.jpg" alt="Chicago" class="carousal-img" />
+                    <div class="carousel-caption">
+                       <p class="size-t1">Grow Your</p>
+                       <p class="size-t1 fl-t">Digital Business</p>
+                       <p class="size-t4">
+                          We make outstanding passion,knowledge and soul
+                       </p>
+                       <button class="learn-more">Learn More</button>
+                    </div>
+                 </div>
+                 <div class="carousel-item">
+                    <img src="resources/images/bg3.jpg" alt="New York" class="carousal-img" />
+                    <div class="carousel-caption">
+                       <p class="size-t1">Grow Your</p>
+                       <p class="size-t1 float-top">Digital Business</p>
+                       <p class="size-t4">
+                          We make outstanding passion,knowledge and soul
+                       </p>
+                       <button class="learn-more">Learn More</button>
+                    </div>
+                 </div>
               </div>
-            </div>
-            <div class="carousel-item">
-              <img
-                src="resources/images/bg3.jpg"
-                alt="New York"
-                class="carousal-img"
-              />
-              <div class="carousel-caption">
-                <p class="size-t1">Grow Your</p>
-                <p class="size-t1 float-top">Digital Business</p>
-                <p class="size-t4">
-                  We make outstanding passion,knowledge and soul
-                </p>
-                <button class="learn-more">Learn More</button>
-              </div>
-            </div>
-          </div>
-          <a class="carousel-control-prev" href="#demo" data-slide="prev">
-            <span class="carousel-control-prev-icon"></span>
-          </a>
-          <a class="carousel-control-next" href="#demo" data-slide="next">
-            <span class="carousel-control-next-icon"></span>
-          </a>
-        </div>
-      </section>
-
-      <div class="row text-center pt-5 mt-md-5 wrap-cont" data-aos="fade-up">
-        <div class="col-md-12">
-          <p class="size-t4 color-r1 mb-1">About us</p>
-          <p class="size-t3 ">Creative Agencies</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-
-        <div class="col-md-12 pt-md-3">
-          <div class="row " data-aos="fade-up">
-            <div class="col-md-4  img-container p-0">
-              <i class="fa fa-plus img-ico"></i>
-              <img src="resources/images/s1.jpg" class="img-const" />
-            </div>
-            <div class="col-md-4 img-container p-0">
-              <i class="fa fa-plus img-ico"></i>
-              <img src="resources/images/bg2.jpg" class="img-const" />
-            </div>
-            <div class="col-md-4  img-container p-0">
-              <i class="fa fa-plus img-ico"></i>
-              <img src="resources/images/bg3.jpg" class="img-const" />
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 mt-md-5 mt-3">
-          <p class="size-t4 container-wrap text-secondary">
-            We tackle business problem with intelligence,We use cutting edge
-            tool and cutting edge thinking to bring brands to life online and
-            direct customer behavior.
-          </p>
-        </div>
-
-        <div class="col-md-12 mt-md-5">
-          <div class="row px-md-2" data-aos="fade-up">
-            <div class="col-md-3 col-3">
-              <p class="size-t3">
-                525
-              </p>
-              <p class="size-t4">
-                Projects
-              </p>
-            </div>
-            <div class="col-md-3 col-3">
-              <p class="size-t3">
-                1200
-              </p>
-              <p class="size-t4">
-                Hours
-              </p>
-            </div>
-            <div class="col-md-3 col-3">
-              <p class="size-t3">
-                14
-              </p>
-              <p class="size-t4">
-                Awards
-              </p>
-            </div>
-            <div class="col-md-3 col-3">
-              <p class="size-t3">
-                525
-              </p>
-              <p class="size-t4">
-                Layouts
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row txt-center pt-5 mt-md-5 wrap-cont" data-aos="fade-up">
-        <div class="col-md-12 text-center">
-          <p class="size-t4 color-r1 mb-1">Services</p>
-          <p class="size-t3 ">Get Your Services</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-
-        <div class="col-md-12 pt-md-3">
-          <div class="row " data-aos="fade-up">
-            <div class="col-md-4 mb-3 service-container">
-              <div class="ico-container">
-                <img src="resources/images/ico1.png" class="service-ico" />
-              </div>
-
-              <div class="service-item-container">
-                <p class="size-t5 mb-2 ">Creative Design</p>
-                <p class="size-t4 text-secondary">
-                  he numbers in the table specify the first browser version that
-                  fully supports the property.
-                </p>
-              </div>
-            </div>
-
-            <div class="col-md-4 mb-3 service-container">
-              <div class="ico-container">
-                <img src="resources/images/ico2.png" class="service-ico" />
-              </div>
-
-              <div class="service-item-container">
-                <p class="size-t5 mb-2 ">Unlimited Features</p>
-                <p class="size-t4 text-secondary">
-                  he numbers in the table specify the first browser version that
-                  fully supports the property.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 service-container">
-              <div class="ico-container">
-                <img src="resources/images/ico3.png" class="service-ico" />
-              </div>
-
-              <div class="service-item-container">
-                <p class="size-t5 mb-2 ">Ultra Responsive</p>
-                <p class="size-t4 text-secondary">
-                  he numbers in the table specify the first browser version that
-                  fully supports the property.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-12 pt-md-3">
-          <div class="row " data-aos="fade-up">
-            <div class="col-md-4 mb-3 service-container">
-              <div class="ico-container">
-                <img src="resources/images/ico4.png" class="service-ico" />
-              </div>
-
-              <div class="service-item-container">
-                <p class="size-t5 mb-2 ">Creative Ideas</p>
-                <p class="size-t4 text-secondary">
-                  he numbers in the table specify the first browser version that
-                  fully supports the property.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 service-container">
-              <div class="ico-container">
-                <img src="resources/images/ico5.png" class="service-ico" />
-              </div>
-
-              <div class="service-item-container">
-                <p class="size-t5 mb-2 ">Easy Customization</p>
-                <p class="size-t4 text-secondary">
-                  he numbers in the table specify the first browser version that
-                  fully supports the property.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4 mb-3 service-container">
-              <div class="ico-container">
-                <img src="resources/images/ico6.png" class="service-ico" />
-              </div>
-
-              <div class="service-item-container">
-                <p class="size-t5 mb-2 ">Super Support</p>
-                <p class="size-t4 text-secondary">
-                  he numbers in the table specify the first browser version that
-                  fully supports the property.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="row txt-center pt-5 mt-md-5 wrap-cont text-center"
-        data-aos="fade-up"
-      >
-        <div class="col-md-12  ">
-          <p class="size-t4 color-r1 mb-1">Our Team</p>
-          <p class="size-t3 ">Creative Team</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-        <div class="col-md-12 pt-md-3">
-          <div class="row " data-aos="fade-up">
-            <div class="col-md-4 ">
-              <img src="resources/images/s1.jpg" class="img-const1" />
-            </div>
-            <div class="col-md-4">
-              <img src="resources/images/bg2.jpg" class="img-const1" />
-            </div>
-            <div class="col-md-4 ">
-              <img src="resources/images/bg3.jpg" class="img-const1" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="row txt-center pt-5 mt-md-5 wrap-cont text-center"
-        data-aos="fade-up"
-      >
-        <div class="col-md-12  ">
-          <p class="size-t4 color-r1 mb-1">Our Skills</p>
-          <p class="size-t3 ">Awesome Skills</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-        <div class="col-md-12 pt-md-3">
-          <div class="row" data-aos="fade-up">
-            <div class="col-md-6 mb-3">
-              <div class="progress-wrap">
-                <span class="fl-left progress-text">ui design</span>
-                <span class="fl-right progress-text">99%</span>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 99%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            <div class="col-md-6 mb-3">
-              <div class="progress-wrap">
-                <span class="fl-left progress-text">art design</span>
-                <span class="fl-right progress-text">90%</span>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 90%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            <div class="col-md-6 mb-3">
-              <div class="progress-wrap">
-                <span class="fl-left progress-text">app development</span>
-                <span class="fl-right progress-text">85%</span>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 85%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            <div class="col-md-6 mb-3">
-              <div class="progress-wrap">
-                <span class="fl-left progress-text">social marketing</span>
-                <span class="fl-right progress-text">70%</span>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 70%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-            <div class="col-md-6 mb-3">
-              <div class="progress-wrap">
-                <span class="fl-left progress-text">corporate identity</span>
-                <span class="fl-right progress-text">65%</span>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 65%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-
-            <div class="col-md-6 mb-3">
-              <div class="progress-wrap">
-                <span class="fl-left progress-text">web development</span>
-                <span class="fl-right progress-text">80%</span>
-              </div>
-
-              <div class="progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 80%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="row txt-center   mt-md-5  set-padding text-center set-bg"
-        data-aos="fade-up"
-      >
-        <div class="col-md-12 ">
-          <div class="wrap-cont1">
-          <p class="size-t6  text-light">
-            <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i> In
-            our work we take attention to every detail to deliver the best
-            service to our customer<i
-              class="fa fa-quote-right quote-icon"
-              aria-hidden="true"
-            ></i>
-          </p>
-          <p class="size-t4 text-light">- Team Leader @Prex Theme</p>
-        </div>
-      </div>
-    </div>
-      <div class="row txt-center pt-5 mt-md-5 " data-aos="fade-up">
-        <div class="col-md-12   text-center">
-          <p class="size-t4 color-r1 mb-1">Our Works</p>
-          <p class="size-t3 ">Featured Projects</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-        <div class="row" data-aos="fade-up">
-          <div class="col-md-12 text-center category-container">
-            <div class="size-t4 text-secondary">
-              ALL
-            </div>
-            <div class="size-t4">
-              BRANDING
-            </div>
-            <div class="size-t4">
-              DESIGN
-            </div>
-            <div class="size-t4">
-              PHOTO
-            </div>
-            <div class="size-t4">
-              WEB
-            </div>
-            <div class="size-t4">
-              APP
-            </div>
-          </div>
-
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap pl-3  ">
-              <span class="size-t41 text-light">Mockup Can Design</span>
-              <span class="size-t4 text-light">Design -Branding</span>
-            </div>
-            <img src="resources/images/s4.jpg" class="img-4" />
-          </div>
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap f1  ">
-              <span class="size-t41 f1-text text-light">Mockup Can Design</span>
-              <span class="size-t4 f1-text text-light">Design -Branding</span>
-            </div>
-
-            <img src="resources/images/s5.jpg" class="img-4" />
-          </div>
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap  ">
-              <span class="size-t41 text-light">Mockup Can Design</span>
-              <span class="size-t4 text-light">Design -Branding</span>
-            </div>
-
-            <img src="resources/images/s4.jpg" class="img-4" />
-          </div>
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap f1 ">
-              <span class="size-t41 text-light f1-text">Mockup Can Design</span>
-              <span class="size-t4 text-light f1-text">Design -Branding</span>
-            </div>
-
-            <img src="resources/images/s6.jpg" class="img-4" />
-          </div>
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap  pl-3">
-              <span class="size-t41 text-light">Mockup Can Design</span>
-              <span class="size-t4 text-light">Design -Branding</span>
-            </div>
-            <img src="resources/images/s5.jpg" class="img-4" />
-          </div>
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap f1 ">
-              <span class="size-t41 f1-text text-light">Mockup Can Design</span>
-              <span class="size-t4  f1-text text-light">Design -Branding</span>
-            </div>
-
-            <img src="resources/images/s3.jpg" class="img-4" />
-          </div>
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap  ">
-              <span class="size-t41 text-light">Mockup Can Design</span>
-              <span class="size-t4 text-light">Design -Branding</span>
-            </div>
-            <img src="resources/images/s6.jpg" class="img-4" />
-          </div>
-          <div class="col-md-3 p-0 m-0 pos-rel">
-            <div class="text-wrap  f1">
-              <span class="size-t41 f1-text text-light">Mockup Can Design</span>
-              <span class="size-t4 f1-text text-light">Design -Branding</span>
-            </div>
-            <img src="resources/images/s3.jpg" class="img-4" />
-          </div>
-
-          <div class="col-md-12 text-center py-4 bg-danger text-light m-0 px-2 ">
-            <p class="size-t6 py-3 text-resize">
-              The most featured work recommended to you to explore it today
-              <button class="contact-us  ml-md-5">Contact Us</button>
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="row txt-center pt-5 mt-md-5 wrap-cont text-center"
-        data-aos="fade-up"
-      >
-        <div class="col-md-12  ">
-          <p class="size-t4 color-r1 mb-1">Pricing Table</p>
-          <p class="size-t3 ">Best price offers</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-
-        <div class="col-md-12 pt-4 mb-md-3">
-          <button class="monthly size-t4 btn1 border-l">Monthly</button>
-          <button class="yearly size-t4 color-r1 btn1 border-r">Yearly</button>
-        </div>
-
-        <div class="col-md-12">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="plan-wrap txt-left py-4">
-                <p class="size-t4 mb-2 color-r1 mt-md-4 pt-3">Life Plan</p>
-                <p class="size-t7 ">FREE</p>
-                <p class="size-t4 mb-3 text-secondary">Per Month</p>
-                <button class="contact font-small mb-1">GET STARTED</button>
-                <p class="size-t4 mb-3 text-secondary">No Payment Required</p>
-              </div>
-              <div class="progress plan-progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 40%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-
-              <div class="plan-cat-wrap text-secondary mt-4">
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>CRM Solutions
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Click To Call Back
-                  From The Web
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Sales Acceleration
-                  Platform
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-close mr-2 color-r1"></i>Track Assured Energy
-                  Class
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Power and Predictive
-                  Dialing
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Speech and Text
-                  Analytics
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="plan-wrap txt-left py-4 text-light bg-danger">
-            
-                <img src="resources/images/bookmark.jpg" class="bookmark">
-
-                <p class="size-t4 mb-2 font-bold ">Pro Plan</p>
-                <p class="size-t7  ">$19</p>
-                <p class="size-t4 mb-3 font-bold ">Per Month</p>
-                <button class="contact font-small mb-1">GET STARTED</button>
-                <p class="size-t4 mb-3 font-bold">No Payment Required</p>
-              </div>
-              <div class="progress plan-progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 75%"
-                  aria-valuenow="40"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-
-              <div class="plan-cat-wrap text-secondary mt-4">
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>CRM Solutions
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Click To Call Back
-                  From The Web
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Sales Acceleration
-                  Platform
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-close mr-2 color-r1"></i>Track Assured Energy
-                  Class
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Power and Predictive
-                  Dialing
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Speech and Text
-                  Analytics
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="plan-wrap txt-left py-4">
-                <p class="size-t4 mb-2 color-r1 mt-md-4 pt-3">
-                  Enterprise Plan
-                </p>
-                <p class="size-t7  ">$29</p>
-                <p class="size-t4 mb-3 text-secondary">Per Month</p>
-                <button class="contact font-small mb-1">GET STARTED</button>
-                <p class="size-t4 text-secondary mb-3">No Payment Required</p>
-              </div>
-              <div class="progress plan-progress">
-                <div
-                  class="progress-bar bg-danger"
-                  role="progressbar"
-                  style="width: 100%"
-                  aria-valuenow="75"
-                  aria-valuemin="0"
-                  aria-valuemax="100"
-                ></div>
-              </div>
-
-              <div class="plan-cat-wrap text-secondary mt-4">
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>CRM Solutions
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Click To Call Back
-                  From The Web
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Sales Acceleration
-                  Platform
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-close mr-2 color-r1"></i>Track Assured Energy
-                  Class
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Power and Predictive
-                  Dialing
-                </p>
-                <p class="size-t4 mb-2">
-                  <i class="fa fa-check mr-2 color-r1"></i>Speech and Text
-                  Analytics
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="row pt-5 mt-md-5 wrap-cont aos-init aos-animate"
-        data-aos="fade-up"
-      >
-        <div class="col-md-12 text-center ">
-          <p class="size-t4 color-r1 mb-1">Our Blog</p>
-          <p class="size-t3 ">Our Latest News</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-
-        <div class="col-md-12 pt-md-3">
-          <div class="row aos-init" data-aos="fade-up">
-            <div class="col-md-4 mb-2 img-container">
-              <i class="fa fa-plus img-ico1"></i>
-              <img src="resources/images/s1.jpg" class="img-const1" />
-
-              <p class="size-t4 mt-4 text-secondary">
-                By Admin &nbsp;&nbsp;18 Nov,2019
-              </p>
-              <p class="size-t41 mb-3 color-r1">The Future Of Web</p>
-              <p class="size-t4 text-secondary">
-                e business problem with intelligence,We use cutting edge tool
-                and cutting edge thinking to bring brands to life online and
-                direct customer behavio
-              </p>
-            </div>
-            <div class="col-md-4 mb-2 img-container">
-              <i class="fa fa-plus img-ico1"></i>
-              <img src="resources/images/bg2.jpg" class="img-const1" />
-
-              <p class="size-t4 mt-4 text-secondary">
-                By Admin &nbsp;&nbsp;18 Nov,2019
-              </p>
-              <p class="size-t41 mb-3 color-r1">Ui & Ux Tips</p>
-              <p class="size-t4 text-secondary">
-                e business problem with intelligence,We use cutting edge tool
-                and cutting edge thinking to bring brands to life online and
-                direct customer behavio
-              </p>
-            </div>
-            <div class="col-md-4  mb-2 img-container">
-              <i class="fa fa-plus img-ico1"></i>
-              <img src="resources/images/bg3.jpg" class="img-const1" />
-
-              <p class="size-t4 mt-4 text-secondary">
-                By Admin &nbsp;&nbsp;18 Nov,2019
-              </p>
-              <p class="size-t41 mb-3 color-r1">Minimalism Style</p>
-              <p class="size-t4 text-secondary">
-                e business problem with intelligence,We use cutting edge tool
-                and cutting edge thinking to bring brands to life online and
-                direct customer behavio
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        class="row txt-center mt-4 set-padding text-center set-bg1 aos-init aos-animate"
-        data-aos="fade-up"
-      >
-        <div class="col-md-12 py-4">
-          <i class="fa fa-twitter twitter-ico mb-4"></i>
-
-          <p class="size-t61 wrap-cont text-light lh-2">
-            </i
-            >Rt&nbsp;<span class="color-r1">@sean-blanda:</span>&nbsp;The kind
-            folk&nbsp;<span class="color-r1">@envanto</span>&nbsp;interviewed me
-            about the content and editorial we are building&nbsp;<span
-              class="color-r1"
-              >@inVisionApp</span
-            >&nbsp;https://t.cobpf.....
-          </p>
-          <p class="size-t4 text-light">@Envanto</p>
-        </div>
-      </div>
-
-
-
-
-
-
-
-
-      <div class="row text-center pt-5 mt-md-5 wrap-cont" data-aos="fade-up">
-        <div class="col-md-12 ">
-          <p class="size-t4 color-r1 mb-1">Contact Us</p>
-          <p class="size-t3 ">Get In Touch</p>
-          <img src="resources/images/divider1.jpg" class="divider-ico" />
-        </div>
-
-         <div class="col-md-12 pt-md-3">
-
-           <div class="row">
-
-              <div class="col-md-6 p-0">
-                <input class="mt-4 contact-inp" placeholder="Prextheme@EvantoMarket">
-                <input class="mt-4 contact-inp" placeholder="Your Email*">
-                <input class="mt-4 contact-inp" placeholder="Your Phone*"> 
-                <input class="mt-4 contact-inp" placeholder="500-3000$">
-              </div>
-     
-              <div class="col-md-6 p-0">
-                  <textarea class="mt-4 contact-textarea" placeholder="Your Message*"></textarea>
-                </div>
+              <a class="carousel-control-prev" href="#demo" data-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+              </a>
+              <a class="carousel-control-next" href="#demo" data-slide="next">
+              <span class="carousel-control-next-icon"></span>
+              </a>
            </div>
-
-
-
-
-         </div>
-
-
-
-
-
-        
+        </section>
+        <div class="row text-center pt-5 mt-md-5 wrap-cont" data-aos="fade-up">
+           <div class="col-md-12">
+              <p class="size-t4 color-r1 mb-1">About us</p>
+              <p class="size-t3 ">Creative Agencies</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="col-md-12 pt-md-3">
+              <div class="row " data-aos="fade-up">
+                 <div class="col-md-4  img-container p-0">
+                    <i class="fa fa-plus img-ico"></i>
+                    <img src="resources/images/s1.jpg" class="img-const" />
+                 </div>
+                 <div class="col-md-4 img-container p-0">
+                    <i class="fa fa-plus img-ico"></i>
+                    <img src="resources/images/bg2.jpg" class="img-const" />
+                 </div>
+                 <div class="col-md-4  img-container p-0">
+                    <i class="fa fa-plus img-ico"></i>
+                    <img src="resources/images/bg3.jpg" class="img-const" />
+                 </div>
+              </div>
+           </div>
+           <div class="col-md-12 mt-md-5 mt-3">
+              <p class="size-t4 container-wrap text-secondary">
+                 We tackle business problem with intelligence,We use cutting edge
+                 tool and cutting edge thinking to bring brands to life online and
+                 direct customer behavior.
+              </p>
+           </div>
+           <div class="col-md-12 mt-md-5">
+              <div class="row px-md-2" data-aos="fade-up">
+                 <div class="col-md-3 col-3">
+                    <p class="size-t3">
+                       525
+                    </p>
+                    <p class="size-t4">
+                       Projects
+                    </p>
+                 </div>
+                 <div class="col-md-3 col-3">
+                    <p class="size-t3">
+                       1200
+                    </p>
+                    <p class="size-t4">
+                       Hours
+                    </p>
+                 </div>
+                 <div class="col-md-3 col-3">
+                    <p class="size-t3">
+                       14
+                    </p>
+                    <p class="size-t4">
+                       Awards
+                    </p>
+                 </div>
+                 <div class="col-md-3 col-3">
+                    <p class="size-t3">
+                       525
+                    </p>
+                    <p class="size-t4">
+                       Layouts
+                    </p>
+                 </div>
+              </div>
+           </div>
         </div>
+        <div class="row txt-center pt-5 mt-md-5 wrap-cont" data-aos="fade-up">
+           <div class="col-md-12 text-center">
+              <p class="size-t4 color-r1 mb-1">Services</p>
+              <p class="size-t3 ">Get Your Services</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="col-md-12 pt-md-3">
+              <div class="row " data-aos="fade-up">
+                 <div class="col-md-4 mb-3 service-container">
+                    <div class="ico-container">
+                       <img src="resources/images/ico1.png" class="service-ico" />
+                    </div>
+                    <div class="service-item-container">
+                       <p class="size-t5 mb-2 ">Creative Design</p>
+                       <p class="size-t4 text-secondary">
+                          he numbers in the table specify the first browser version that
+                          fully supports the property.
+                       </p>
+                    </div>
+                 </div>
+                 <div class="col-md-4 mb-3 service-container">
+                    <div class="ico-container">
+                       <img src="resources/images/ico2.png" class="service-ico" />
+                    </div>
+                    <div class="service-item-container">
+                       <p class="size-t5 mb-2 ">Unlimited Features</p>
+                       <p class="size-t4 text-secondary">
+                          he numbers in the table specify the first browser version that
+                          fully supports the property.
+                       </p>
+                    </div>
+                 </div>
+                 <div class="col-md-4 mb-3 service-container">
+                    <div class="ico-container">
+                       <img src="resources/images/ico3.png" class="service-ico" />
+                    </div>
+                    <div class="service-item-container">
+                       <p class="size-t5 mb-2 ">Ultra Responsive</p>
+                       <p class="size-t4 text-secondary">
+                          he numbers in the table specify the first browser version that
+                          fully supports the property.
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+           <div class="col-md-12 pt-md-3">
+              <div class="row " data-aos="fade-up">
+                 <div class="col-md-4 mb-3 service-container">
+                    <div class="ico-container">
+                       <img src="resources/images/ico4.png" class="service-ico" />
+                    </div>
+                    <div class="service-item-container">
+                       <p class="size-t5 mb-2 ">Creative Ideas</p>
+                       <p class="size-t4 text-secondary">
+                          he numbers in the table specify the first browser version that
+                          fully supports the property.
+                       </p>
+                    </div>
+                 </div>
+                 <div class="col-md-4 mb-3 service-container">
+                    <div class="ico-container">
+                       <img src="resources/images/ico5.png" class="service-ico" />
+                    </div>
+                    <div class="service-item-container">
+                       <p class="size-t5 mb-2 ">Easy Customization</p>
+                       <p class="size-t4 text-secondary">
+                          he numbers in the table specify the first browser version that
+                          fully supports the property.
+                       </p>
+                    </div>
+                 </div>
+                 <div class="col-md-4 mb-3 service-container">
+                    <div class="ico-container">
+                       <img src="resources/images/ico6.png" class="service-ico" />
+                    </div>
+                    <div class="service-item-container">
+                       <p class="size-t5 mb-2 ">Super Support</p>
+                       <p class="size-t4 text-secondary">
+                          he numbers in the table specify the first browser version that
+                          fully supports the property.
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="row txt-center pt-5 mt-md-5 wrap-cont text-center" data-aos="fade-up">
+           <div class="col-md-12  ">
+              <p class="size-t4 color-r1 mb-1">Our Team</p>
+              <p class="size-t3 ">Creative Team</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="col-md-12 pt-md-3">
+              <div class="row " data-aos="fade-up">
+                 <div class="col-md-4 ">
+                    <img src="resources/images/s1.jpg" class="img-const1" />
+                 </div>
+                 <div class="col-md-4">
+                    <img src="resources/images/bg2.jpg" class="img-const1" />
+                 </div>
+                 <div class="col-md-4 ">
+                    <img src="resources/images/bg3.jpg" class="img-const1" />
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="row txt-center pt-5 mt-md-5 wrap-cont text-center" data-aos="fade-up">
+           <div class="col-md-12  ">
+              <p class="size-t4 color-r1 mb-1">Our Skills</p>
+              <p class="size-t3 ">Awesome Skills</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="col-md-12 pt-md-3">
+              <div class="row" data-aos="fade-up">
+                 <div class="col-md-6 mb-3">
+                    <div class="progress-wrap">
+                       <span class="fl-left progress-text">ui design</span>
+                       <span class="fl-right progress-text">99%</span>
+                    </div>
+                    <div class="progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 99%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 mb-3">
+                    <div class="progress-wrap">
+                       <span class="fl-left progress-text">art design</span>
+                       <span class="fl-right progress-text">90%</span>
+                    </div>
+                    <div class="progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 mb-3">
+                    <div class="progress-wrap">
+                       <span class="fl-left progress-text">app development</span>
+                       <span class="fl-right progress-text">85%</span>
+                    </div>
+                    <div class="progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 85%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 mb-3">
+                    <div class="progress-wrap">
+                       <span class="fl-left progress-text">social marketing</span>
+                       <span class="fl-right progress-text">70%</span>
+                    </div>
+                    <div class="progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 mb-3">
+                    <div class="progress-wrap">
+                       <span class="fl-left progress-text">corporate identity</span>
+                       <span class="fl-right progress-text">65%</span>
+                    </div>
+                    <div class="progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                 </div>
+                 <div class="col-md-6 mb-3">
+                    <div class="progress-wrap">
+                       <span class="fl-left progress-text">web development</span>
+                       <span class="fl-right progress-text">80%</span>
+                    </div>
+                    <div class="progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="row txt-center   mt-md-5  set-padding text-center set-bg" data-aos="fade-up">
+           <div class="col-md-12 ">
+              <div class="wrap-cont1">
+                 <p class="size-t6  text-light">
+                    <i class="fa fa-quote-left quote-icon" aria-hidden="true"></i> In
+                    our work we take attention to every detail to deliver the best
+                    service to our customer<i class="fa fa-quote-right quote-icon" aria-hidden="true"></i>
+                 </p>
+                 <p class="size-t4 text-light">- Team Leader @Prex Theme</p>
+              </div>
+           </div>
+        </div>
+        <div class="row txt-center pt-5 mt-md-5 " data-aos="fade-up">
+           <div class="col-md-12   text-center">
+              <p class="size-t4 color-r1 mb-1">Our Works</p>
+              <p class="size-t3 ">Featured Projects</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="row" data-aos="fade-up">
+              <div class="col-md-12 text-center category-container">
+                 <div class="size-t4 text-secondary">
+                    ALL
+                 </div>
+                 <div class="size-t4">
+                    BRANDING
+                 </div>
+                 <div class="size-t4">
+                    DESIGN
+                 </div>
+                 <div class="size-t4">
+                    PHOTO
+                 </div>
+                 <div class="size-t4">
+                    WEB
+                 </div>
+                 <div class="size-t4">
+                    APP
+                 </div>
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap pl-3  ">
+                    <span class="size-t41 text-light">Mockup Can Design</span>
+                    <span class="size-t4 text-light">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s4.jpg" class="img-4" />
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap f1  ">
+                    <span class="size-t41 f1-text text-light">Mockup Can Design</span>
+                    <span class="size-t4 f1-text text-light">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s5.jpg" class="img-4" />
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap  ">
+                    <span class="size-t41 text-light">Mockup Can Design</span>
+                    <span class="size-t4 text-light">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s4.jpg" class="img-4" />
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap f1 ">
+                    <span class="size-t41 text-light f1-text">Mockup Can Design</span>
+                    <span class="size-t4 text-light f1-text">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s6.jpg" class="img-4" />
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap  pl-3">
+                    <span class="size-t41 text-light">Mockup Can Design</span>
+                    <span class="size-t4 text-light">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s5.jpg" class="img-4" />
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap f1 ">
+                    <span class="size-t41 f1-text text-light">Mockup Can Design</span>
+                    <span class="size-t4  f1-text text-light">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s3.jpg" class="img-4" />
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap  ">
+                    <span class="size-t41 text-light">Mockup Can Design</span>
+                    <span class="size-t4 text-light">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s6.jpg" class="img-4" />
+              </div>
+              <div class="col-md-3 p-0 m-0 pos-rel">
+                 <div class="text-wrap  f1">
+                    <span class="size-t41 f1-text text-light">Mockup Can Design</span>
+                    <span class="size-t4 f1-text text-light">Design -Branding</span>
+                 </div>
+                 <img src="resources/images/s3.jpg" class="img-4" />
+              </div>
+              <div class="col-md-12 text-center py-4 bg-danger text-light m-0 px-2 ">
+                 <p class="size-t6 py-3 text-resize">
+                    The most featured work recommended to you to explore it today
+                    <button class="contact-us  ml-md-5">Contact Us</button>
+                 </p>
+              </div>
+           </div>
+        </div>
+        <div class="row txt-center pt-5 mt-md-5 wrap-cont text-center" data-aos="fade-up">
+           <div class="col-md-12  ">
+              <p class="size-t4 color-r1 mb-1">Pricing Table</p>
+              <p class="size-t3 ">Best price offers</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="col-md-12 pt-4 mb-md-3">
+              <button class="monthly size-t4 btn1 border-l">Monthly</button>
+              <button class="yearly size-t4 color-r1 btn1 border-r">Yearly</button>
+           </div>
+           <div class="col-md-12">
+              <div class="row">
+                 <div class="col-md-4">
+                    <div class="plan-wrap txt-left py-4">
+                       <p class="size-t4 mb-2 color-r1 mt-md-4 pt-3">Life Plan</p>
+                       <p class="size-t7 ">FREE</p>
+                       <p class="size-t4 mb-3 text-secondary">Per Month</p>
+                       <button class="contact font-small mb-1">GET STARTED</button>
+                       <p class="size-t4 mb-3 text-secondary">No Payment Required</p>
+                    </div>
+                    <div class="progress plan-progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="plan-cat-wrap text-secondary mt-4">
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>CRM Solutions
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Click To Call Back
+                          From The Web
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Sales Acceleration
+                          Platform
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-close mr-2 color-r1"></i>Track Assured Energy
+                          Class
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Power and Predictive
+                          Dialing
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Speech and Text
+                          Analytics
+                       </p>
+                    </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="plan-wrap txt-left py-4 text-light bg-danger">
+                       <img src="resources/images/bookmark.jpg" class="bookmark">
+                       <p class="size-t4 mb-2 font-bold ">Pro Plan</p>
+                       <p class="size-t7  ">$19</p>
+                       <p class="size-t4 mb-3 font-bold ">Per Month</p>
+                       <button class="contact font-small mb-1">GET STARTED</button>
+                       <p class="size-t4 mb-3 font-bold">No Payment Required</p>
+                    </div>
+                    <div class="progress plan-progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="40"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="plan-cat-wrap text-secondary mt-4">
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>CRM Solutions
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Click To Call Back
+                          From The Web
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Sales Acceleration
+                          Platform
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-close mr-2 color-r1"></i>Track Assured Energy
+                          Class
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Power and Predictive
+                          Dialing
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Speech and Text
+                          Analytics
+                       </p>
+                    </div>
+                 </div>
+                 <div class="col-md-4">
+                    <div class="plan-wrap txt-left py-4">
+                       <p class="size-t4 mb-2 color-r1 mt-md-4 pt-3">
+                          Enterprise Plan
+                       </p>
+                       <p class="size-t7  ">$29</p>
+                       <p class="size-t4 mb-3 text-secondary">Per Month</p>
+                       <button class="contact font-small mb-1">GET STARTED</button>
+                       <p class="size-t4 text-secondary mb-3">No Payment Required</p>
+                    </div>
+                    <div class="progress plan-progress">
+                       <div class="progress-bar bg-danger" role="progressbar" style="width: 100%" aria-valuenow="75"
+                          aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <div class="plan-cat-wrap text-secondary mt-4">
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>CRM Solutions
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Click To Call Back
+                          From The Web
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Sales Acceleration
+                          Platform
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-close mr-2 color-r1"></i>Track Assured Energy
+                          Class
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Power and Predictive
+                          Dialing
+                       </p>
+                       <p class="size-t4 mb-2">
+                          <i class="fa fa-check mr-2 color-r1"></i>Speech and Text
+                          Analytics
+                       </p>
+                    </div>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="row pt-5 mt-md-5 wrap-cont aos-init aos-animate" data-aos="fade-up">
+           <div class="col-md-12 text-center ">
+              <p class="size-t4 color-r1 mb-1">Our Blog</p>
+              <p class="size-t3 ">Our Latest News</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="col-md-12 pt-md-3">
+              <div class="row aos-init" data-aos="fade-up">
+                 <div class="col-md-4 mb-2 img-container">
+                    <i class="fa fa-plus img-ico1"></i>
+                    <img src="resources/images/s1.jpg" class="img-const1" />
+                    <p class="size-t4 mt-4 text-secondary">
+                       By Admin &nbsp;&nbsp;18 Nov,2019
+                    </p>
+                    <p class="size-t41 mb-3 color-r1">The Future Of Web</p>
+                    <p class="size-t4 text-secondary">
+                       e business problem with intelligence,We use cutting edge tool
+                       and cutting edge thinking to bring brands to life online and
+                       direct customer behavio
+                    </p>
+                 </div>
+                 <div class="col-md-4 mb-2 img-container">
+                    <i class="fa fa-plus img-ico1"></i>
+                    <img src="resources/images/bg2.jpg" class="img-const1" />
+                    <p class="size-t4 mt-4 text-secondary">
+                       By Admin &nbsp;&nbsp;18 Nov,2019
+                    </p>
+                    <p class="size-t41 mb-3 color-r1">Ui & Ux Tips</p>
+                    <p class="size-t4 text-secondary">
+                       e business problem with intelligence,We use cutting edge tool
+                       and cutting edge thinking to bring brands to life online and
+                       direct customer behavio
+                    </p>
+                 </div>
+                 <div class="col-md-4  mb-2 img-container">
+                    <i class="fa fa-plus img-ico1"></i>
+                    <img src="resources/images/bg3.jpg" class="img-const1" />
+                    <p class="size-t4 mt-4 text-secondary">
+                       By Admin &nbsp;&nbsp;18 Nov,2019
+                    </p>
+                    <p class="size-t41 mb-3 color-r1">Minimalism Style</p>
+                    <p class="size-t4 text-secondary">
+                       e business problem with intelligence,We use cutting edge tool
+                       and cutting edge thinking to bring brands to life online and
+                       direct customer behavio
+                    </p>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="row txt-center mt-4 set-padding text-center set-bg1 aos-init aos-animate" data-aos="fade-up">
+           <div class="col-md-12 py-4">
+              <i class="fa fa-twitter twitter-ico mb-4"></i>
+              <p class="size-t61 wrap-cont text-light lh-2">
+                 </i>Rt&nbsp;<span class="color-r1">@sean-blanda:</span>&nbsp;The kind
+                 folk&nbsp;<span class="color-r1">@envanto</span>&nbsp;interviewed me
+                 about the content and editorial we are building&nbsp;<span
+                    class="color-r1">@inVisionApp</span>&nbsp;https://t.cobpf.....
+              </p>
+              <p class="size-t4 text-light">@Envanto</p>
+           </div>
+        </div>
+        <div class="row text-center pt-5 mt-md-5 wrap-cont" data-aos="fade-up">
+           <div class="col-md-12 ">
+              <p class="size-t4 color-r1 mb-1">Contact Us</p>
+              <p class="size-t3 ">Get In Touch</p>
+              <img src="resources/images/divider1.jpg" class="divider-ico" />
+           </div>
+           <div class="col-md-12 pt-md-3">
+              <div class="row">
+                 <div class="col-md-6 p-0">
+                    <input class="mt-4 contact-inp" placeholder="Prextheme@EvantoMarket">
+                    <input class="mt-4 contact-inp" placeholder="Your Email*">
+                    <input class="mt-4 contact-inp" placeholder="Your Phone*">
+                    <input class="mt-4 contact-inp" placeholder="500-3000$">
+                 </div>
+                 <div class="col-md-6 p-0">
+                    <textarea class="mt-4 contact-textarea" placeholder="Your Message*"></textarea>
+                 </div>
+                 <div class="col-md-12 mt-3">
+                    <button class="contact font-small mb-1 text-light bg-danger">SEND MESSAGE</button>
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="row    mt-md-5  " >
+           <div class="col-md-12 ">
+              <img src="resources/images/map.jpg" class="map-img">
+           </div>
+        </div>
+        <footer>
+           <div class="row wrap-cont py-5"  >
+              <div class="col-md-6 mb-2">
+                 <p class="progress-text  text-light">ABOUT US</p>
+                 <p class="size-t4 text-secondary mb-3">siness problem with intelligence,We use cutting edge tool
+                    and cutting edge thinking to bring brands to life online and
+                    direct customer behavio
+                 </p>
+                 <p class="size-t4 text-secondary">Our Address:<span class="text-light">360 Harvest Street,United States Of America
+                    </span>
+                 </p>
+                 <p class="size-t4 text-secondary">Email:<span class="text-light">Kyata@Evanto.com  
+                    </span>
+                 </p>
+                 <p class="size-t4 text-secondary">Contact Us:<span class="text-light">43553-6433 65262-5656
+              </div>
+              <div class="col-md-6 mb-2">
+                  <p class="progress-text  text-light">SUBSCRIBE TO NEWSLETTER</p>
+                  <p class="size-t4 text-secondary mb-3">siness problem with intelligence,We use cutting edge tool
+                      and cutting edge thinking to bring brands to life online and
+                      direct customer behavio
+                   </p>
+                   <input class="subscribe-inp size-t4" placeholder="Your email*"><button class="subscribe size-t4">Subscribe Now</button>
+              </div>
+
+
+            <div class="col-md-12 pt-md-4">
+
+                     <div class="row">
+
+
+                            
+                         <div class="col-md-3">
+                            <p class="progress-text  text-light mb-3">POPULAR POSTS</p>
+                            <p></p>
+                         </div>
+                         <div class="col-md-3">
+                            <p class="progress-text  text-light mb-3">HELP CENTER</p>
+                          </div>
+
+                          <div class="col-md-3">
+                              <p class="progress-text  text-light mb-3">OUR SERVICES</p>
+                            </div>
+                            <div class="col-md-3">
+                                <p class="progress-text  text-light mb-3">INSTAGRAM WIDGETS</p>
+                              </div>
+
+
+
+                     </div>
 
 
 
 
+            </div>
 
 
-    </div>
-  </body>
+
+
+           </div>
+        </footer>
+     </div>
+</body>
+
 </html>
