@@ -122,7 +122,7 @@ button.navbar-toggler.collapsed {
   border-radius: 100%;
 }
 .size-t3 {
-  font-size: 120%;
+  font-size: 141%;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -209,7 +209,7 @@ button.navbar-toggler.collapsed {
 .service-ico {
   width: 100%;
   padding-right: 8px;
-  height: 60px;
+  height: auto;
 }
 .progress {
   height: 7px !important;
@@ -310,7 +310,7 @@ span.size-t4.f1-text.text-light {
   width: 104px;
 }
 .contact {
-  font-size: 9px;
+  font-size: 10px;
   padding: 9px;
   letter-spacing: 1px;
   background: #fff;
@@ -361,10 +361,13 @@ span.size-t4.f1-text.text-light {
 .bookmark {
   position: relative;
   left: 44%;
-  top: -26px;
+  margin-bottom: 15px;
+  width: 23px;
+  height: 26px;
+  top: -27px;
 }
 .size-t7 {
-  font-size: 34px;
+  font-size: 31px;
   letter-spacing: 0px;
   font-weight: 900;
 }
@@ -389,13 +392,17 @@ span.size-t4.f1-text.text-light {
 }
 .contact-us {
   background: #fff;
+  position: relative;
   color: #f31d04;
-  padding: 6px;
-  border: 1px solid #f31d04;
-  width: 108px;
+  padding: 9px;
+  border: 2px solid #f31d04;
+  width: 126px;
   font-size: 11px;
-  margin-right: 163px;
-  border-radius: 15px;
+  font-weight: 600;
+  border-radius: 18px;
+  letter-spacing: 1.2px;
+  top: -2px;
+  left: 67px;
 }
 .img-ico1 {
   position: absolute;
@@ -428,7 +435,33 @@ button:focus {
 .font-bold {
   font-weight: 700;
 }
+.quote-icon {
+  font-size: 8px;
+  position: relative;
+  top: -9px;
+}
+.wrap-cont1 {
+  width: 43%;
+  margin: 0 auto;
+  line-height: 2;
+}
+.contact-inp {
+  width: 95%;
+  font-size: 12px;
+  padding: 11px;
+  border: none;
+  background: #eeeeee;
+}
 
+.contact-textarea {
+  font-size: 12px;
+  padding-top: 9px;
+  height: 235px;
+  border: none;
+  background: #eeeeee;
+  width: 81%;
+  padding-left: 17px;
+}
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px !important;
@@ -460,5 +493,19 @@ button:focus {
   }
   .img-ico1 {
     top: 35%;
+  }
+  .wrap-cont1 {
+    width: 100%;
+  }
+  .text-resize {
+    padding-left: 56px;
+    padding-right: 56px;
+  }
+  .contact-us {
+    position: unset;
+    margin: 9px;
+  }
+  .contact-textarea {
+    width: 94%;
   }
 }
