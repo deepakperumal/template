@@ -26,5 +26,22 @@ $(function () {
 
   })
 
+  $('.btn1').click(function (e) {
+
+    if ($(this).hasClass('monthly') && !$(this).hasClass('border-l')) {
+
+      $('.yearly').removeClass('yearly').addClass('monthly')
+      $(this).removeClass('monthly').addClass('yearly')
+
+    } else {
+      $('.monthly').removeClass('monthly').addClass('yearly')
+      $(this).removeClass('yearly').addClass('monthly')
+    }
+
+
+
+
+  })
+
 
 });

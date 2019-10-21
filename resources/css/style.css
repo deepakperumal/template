@@ -11,13 +11,13 @@
   width: 100%;
 }
 html {
-  font-family: 'Roboto', sans-serif !important;
   font-size: 17px;
 }
 button:focus {
   outline-style: none !important;
 }
 body {
+  font-family: 'Roboto', sans-serif !important;
   overflow-x: hidden;
   letter-spacing: 0.5px;
   font-weight: 100;
@@ -75,7 +75,7 @@ header {
 }
 
 .size-t4 {
-  font-size: 70%;
+  font-size: 65%;
 }
 
 .learn-more {
@@ -140,10 +140,13 @@ button.navbar-toggler.collapsed {
   position: relative;
   left: 30%;
 }
-.img-const,
-.img-const1 {
+.img-const {
   width: 84%;
   height: 260px;
+}
+.img-const1 {
+  width: 100%;
+  height: 214px;
 }
 
 .wrap-cont {
@@ -173,7 +176,8 @@ button.navbar-toggler.collapsed {
   display: none;
 }
 .img-container:hover img {
-  opacity: 0.8;
+  -webkit-filter: brightness(80%);
+
   cursor: pointer;
 }
 .img-container:hover i {
@@ -257,12 +261,7 @@ button.navbar-toggler.collapsed {
 .set-padding {
   padding: 88px 0;
 }
-.quote-icon {
-  font-size: 9px;
-  position: relative;
-  top: -10px;
-  margin: 5px;
-}
+
 .img-4 {
   width: 100%;
   height: 320px;
@@ -280,8 +279,9 @@ button.navbar-toggler.collapsed {
   visibility: hidden;
 }
 .size-t41 {
-  font-size: 83%;
+  font-size: 90%;
   font-weight: 700;
+  letter-spacing: 1px;
 }
 .pos-rel:hover .text-wrap {
   visibility: visible;
@@ -310,12 +310,12 @@ span.size-t4.f1-text.text-light {
   width: 104px;
 }
 .contact {
-  font-size: 10px;
+  font-size: 9px;
   padding: 9px;
+  letter-spacing: 1px;
   background: #fff;
   border: 1px solid #f31d04;
   border-radius: 17px;
-  width: 100px;
   color: #f31d04;
   font-weight: 600;
 }
@@ -331,35 +331,45 @@ span.size-t4.f1-text.text-light {
   cursor: pointer;
 }
 
-.monthly {
-  padding: 8px;
-  background: #f31d04;
-  color: #ffff;
+.btn1 {
+  padding: 7px;
   font-weight: 700;
+  width: 100px;
   border: 1px solid red;
-  width: 75px;
+}
+
+.border-l {
   border-top-left-radius: 14px;
   border-bottom-left-radius: 14px;
 }
 
-.yearly {
-  padding: 8px;
-  background: #fff;
-  color: #f31d04;
-  font-weight: 700;
-  border: 1px solid red;
-  width: 75px;
+.border-r {
   border-top-right-radius: 14px;
   border-bottom-right-radius: 14px;
   margin-left: -6px;
 }
 
+.monthly {
+  background: #f31d04;
+  color: #ffff;
+}
+
+.yearly {
+  background: #fff;
+  color: #f31d04;
+}
+.bookmark {
+  position: relative;
+  left: 44%;
+  top: -26px;
+}
 .size-t7 {
-  font-size: 24px;
+  font-size: 34px;
+  letter-spacing: 0px;
   font-weight: 900;
 }
 .contact.font-small {
-  width: 120px;
+  width: 137px;
 }
 .plan-progress {
   margin: 0px !important;
@@ -377,12 +387,22 @@ span.size-t4.f1-text.text-light {
   padding-top: 20px;
   padding-left: 43px;
 }
+.contact-us {
+  background: #fff;
+  color: #f31d04;
+  padding: 6px;
+  border: 1px solid #f31d04;
+  width: 108px;
+  font-size: 11px;
+  margin-right: 163px;
+  border-radius: 15px;
+}
 .img-ico1 {
   position: absolute;
   z-index: 9999;
-  top: 30%;
+  top: 27%;
   font-size: 9px;
-  left: 43%;
+  left: 50%;
   color: #ffff;
   /* visibility: hidden; */
   display: none;
@@ -398,9 +418,17 @@ button:focus {
   outline: none;
 }
 .twitter-ico {
-  font-size: 48px;
+  font-size: 36px;
   color: #ffff;
 }
+
+.lh-2 {
+  line-height: 2;
+}
+.font-bold {
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 768px) {
   body {
     font-size: 14px !important;
@@ -411,6 +439,7 @@ button:focus {
   .img-const,
   .img-const1 {
     width: 100% !important;
+    height: 260px;
   }
   .txt-center {
     text-align: center;
@@ -428,5 +457,8 @@ button:focus {
   }
   .divider-ico {
     width: 17%;
+  }
+  .img-ico1 {
+    top: 35%;
   }
 }
