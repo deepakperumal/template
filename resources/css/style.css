@@ -9,6 +9,7 @@
 }
 .wrapper {
   width: 100%;
+  overflow: hidden;
 }
 html {
   font-size: 17px;
@@ -230,6 +231,10 @@ button.navbar-toggler.collapsed {
   font-size: 70%;
   font-weight: 600;
   text-transform: uppercase;
+}
+.progress-text1 {
+  font-size: 70%;
+  font-weight: 600;
 }
 .size-t6 {
   font-size: 90%;
@@ -490,13 +495,72 @@ footer {
   padding: 11px;
   color: #ffff;
   background: #f31d04;
-  border-top-right-radius: 13px;
+  border-top-right-radius: 17px;
   border: none;
-  border-bottom-right-radius: 13px;
+  border-bottom-right-radius: 17px;
   width: 138px;
   font-weight: 600;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+.footer-img {
+  width: 19%;
+  height: 33px;
+  float: left;
+  margin-right: 11px;
+}
+
+.footer-list {
+  list-style: none;
+  margin-left: 9px;
+}
+
+.footer-list li {
+  margin-top: 4px;
+}
+.footer-list li:before {
+  content: '>';
+  position: absolute;
+  left: 12px;
+}
+.hvr:hover {
+  color: #f31d04 !important;
+  cursor: pointer;
+}
+.insta-img {
+  width: 96%;
+  height: 39px;
+}
+.wrapp1 {
+  background: red;
+  height: 39px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  top: -5px;
+  color: #ffff;
+  cursor: pointer;
+  font-size: 13px;
+  visibility: hidden;
+}
+.insta-wrap:hover .wrapp1 {
+  visibility: visible !important;
+}
+
+.copyright {
+  background: #2d2d2d;
+}
+.copy-circle {
+  border: 1px solid;
+  padding: 1px 3px 1px 3px;
+  border-radius: 6px;
+  font-size: 9px;
+  text-align: center;
+}
+.footer-ico i {
+  margin-left: 23px;
 }
 @media only screen and (max-width: 768px) {
   body {
