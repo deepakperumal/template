@@ -197,6 +197,10 @@ button.navbar-toggler.collapsed {
   font-size: 15px;
   font-weight: 600;
 }
+.size-t51 {
+  font-size: 83%;
+  font-weight: 600;
+}
 .size-t5:hover {
   color: #ff2d2d;
   cursor: pointer;
@@ -270,6 +274,11 @@ button.navbar-toggler.collapsed {
   padding: 88px 0;
 }
 
+.rating-icon {
+  color: #ffd700;
+  margin-right: 3px;
+}
+
 .img-4 {
   width: 100%;
   height: 320px;
@@ -287,7 +296,7 @@ button.navbar-toggler.collapsed {
   visibility: hidden;
 }
 .size-t41 {
-  font-size: 90%;
+  font-size: 81%;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -343,7 +352,7 @@ span.size-t4.f1-text.text-light {
   padding: 7px;
   font-weight: 700;
   width: 100px;
-  border: 1px solid red;
+  border: 1px solid #f31d04;
 }
 
 .border-l {
@@ -505,9 +514,9 @@ footer {
 }
 .footer-img {
   width: 19%;
-  height: 33px;
+  height: 39px;
   float: left;
-  margin-right: 11px;
+  margin-right: 13px;
 }
 
 .footer-list {
@@ -532,7 +541,7 @@ footer {
   height: 39px;
 }
 .wrapp1 {
-  background: red;
+  background: #f31d04;
   height: 39px;
   display: flex;
   justify-content: center;
@@ -562,7 +571,70 @@ footer {
 .footer-ico i {
   margin-left: 23px;
 }
+
+.image-container {
+  width: 33%;
+  float: left;
+  position: relative;
+}
+.carousal-image {
+  width: 84%;
+  height: 260px;
+}
+
+.image-info {
+  position: absolute;
+  top: 34%;
+  left: 36%;
+  display: none;
+  z-index: 9999;
+}
+
+.image-container:hover .image-info {
+  display: block;
+  cursor: pointer;
+}
+.image-container:hover .carousal-image {
+  -webkit-filter: brightness(50%);
+}
+.widgets i {
+  padding-left: 20px;
+  font-size: 13px;
+}
+.widgets {
+  margin-left: -17px;
+}
+
+.indicator-icon i {
+  font-size: 4px;
+  margin-left: 6px;
+  cursor: pointer;
+  color: #a5a3a3;
+  border: 1px solid;
+  border-radius: 9px;
+  background: #a5a3a3;
+}
+.active1 {
+  display: none;
+}
+
+.i-active {
+  background: rgb(49, 49, 49) !important;
+  color: rgb(49, 49, 49) !important;
+  border: 1px solid;
+  border-radius: 9px;
+}
+
+.testimonial-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 37px;
+}
 @media only screen and (max-width: 768px) {
+  .image-info {
+    left: 20%;
+    top: 28%;
+  }
   body {
     font-size: 14px !important;
   }
@@ -607,5 +679,8 @@ footer {
   }
   .contact-textarea {
     width: 94%;
+  }
+  .carousal-image {
+    height: 135px;
   }
 }

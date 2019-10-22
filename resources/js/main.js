@@ -2,8 +2,6 @@ $(function () {
   AOS.init();
   $(window).scroll(function () {
     var scroll = $(window).scrollTop();
-
-    console.log(scroll);
     if (scroll > 600) {
       $("#nav").addClass("changebg");
       $('.navbar').removeClass('bg-transparent')
@@ -38,7 +36,27 @@ $(function () {
       $(this).removeClass('yearly').addClass('monthly')
     }
 
+  })
 
+  $('.ic').click(function (e) {
+
+    var index = $(this).attr('data-id')
+    $('.carousal-image-wrap').eq(index).removeClass('active1')
+    $('.carousal-image-wrap').eq(index).siblings().addClass('active1')
+
+    $(this).addClass('i-active').siblings().removeClass('i-active')
+
+
+  })
+
+
+  $('.ic1').click(function (e) {
+
+    var index = $(this).attr('data-id')
+    $('.carousal-image-wrap1').eq(index).removeClass('active1')
+    $('.carousal-image-wrap1').eq(index).siblings().addClass('active1')
+
+    $(this).addClass('i-active').siblings().removeClass('i-active')
 
 
   })
