@@ -41,8 +41,24 @@ $(function () {
   $('.ic').click(function (e) {
 
     var index = $(this).attr('data-id')
-    $('.carousal-image-wrap').eq(index).removeClass('active1')
-    $('.carousal-image-wrap').eq(index).siblings().addClass('active1')
+
+    $('.carousal-image-wrap').eq(index).siblings().removeClass('fadeInLeft fadeInRight')
+
+    var class1 = '';
+
+
+
+
+    if (index > $(this).parent().find('.i-active').index())
+
+      class1 = 'fadeInRight'
+
+    else
+
+      class1 = 'fadeInLeft'
+
+    $('.carousal-image-wrap').eq(index).removeClass('active1').addClass('animated ' + class1 + ' ')
+    $('.carousal-image-wrap').eq(index).siblings().addClass('active1').removeClass('animated')
 
     $(this).addClass('i-active').siblings().removeClass('i-active')
 
@@ -53,8 +69,25 @@ $(function () {
   $('.ic1').click(function (e) {
 
     var index = $(this).attr('data-id')
-    $('.carousal-image-wrap1').eq(index).removeClass('active1')
-    $('.carousal-image-wrap1').eq(index).siblings().addClass('active1')
+    $('.carousal-image-wrap').eq(index).siblings().removeClass('fadeInLeft fadeInRight')
+
+    var class1 = '';
+
+
+
+
+    if (index > $(this).parent().find('.i-active').index())
+
+      class1 = 'fadeInRight'
+
+    else
+
+      class1 = 'fadeInLeft'
+
+
+
+    $('.carousal-image-wrap1').eq(index).removeClass('active1').addClass('animated ' + class1 + ' ')
+    $('.carousal-image-wrap1').eq(index).siblings().addClass('active1').removeClass('animated ' + class1 + ' ')
 
     $(this).addClass('i-active').siblings().removeClass('i-active')
 
