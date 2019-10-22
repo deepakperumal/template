@@ -754,4 +754,7 @@ footer {
   .carousal-image {
     height: 135px;
   }
+  .subscribe-inp {
+    width: 41%;
+  }
 }
